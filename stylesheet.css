@@ -1,0 +1,63 @@
+body {
+    font-family: 'Open Sans', Arial, Tahoma;
+    font-weight: 400;
+    font-size: 1em;
+    color: #363636;
+}
+.container {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    background: rgb(206, 205, 205);
+    overflow: auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+img {
+    vertical-align: middle;
+}
+
+#photo {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border-color: rgb(206, 205, 205);
+    overflow: hidden;
+    padding: 5px;
+    background: #ededed;
+    display: inline-block;
+}
+
+#photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.header {
+    background-color: white;
+    margin-top: -75px;
+    padding: 75px;
+}
+
+.header span {
+    color: red;
+}
+
+.body {
+    background-color: white;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: left;
+}
